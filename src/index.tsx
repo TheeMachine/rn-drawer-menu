@@ -6,7 +6,7 @@ export default class DrawerMenu extends React.Component {
     render() {
         return (
             <View>
-                <Text style={{color:'red'}}>Test Component</Text>
+                <Text style={{color:'red'}}>DrawerMenu </Text>
             </View>
         )
     }
