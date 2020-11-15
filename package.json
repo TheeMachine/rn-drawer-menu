@@ -1,6 +1,6 @@
 {
   "name": "rn-drawer-menu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Customize Drawer Menu Component for React-Native ",
   "main": "lib/index.js",
   "publishConfig": {
