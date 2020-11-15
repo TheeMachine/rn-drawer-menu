@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project ./tsconfig.json",
-    "pub": "npm version patch && publish --registry http://localhost:4873/",
+    "pub": "npm version patch && publish --registry https://npm.pkg.github.com/",
     "lint": "tslint --fix -p ./tsconfig.json"
   },
   "keywords": [
