@@ -1,9 +1,11 @@
 {
   "name": "rn-drawer-menu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Customize Drawer Menu Component for React-Native ",
   "main": "lib/index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project ./tsconfig.json",
