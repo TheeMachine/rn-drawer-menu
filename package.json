@@ -1,22 +1,18 @@
 {
-  "name": "@theemachine/rn-drawer-menu",
+  "name": "rn-drawer-menu",
   "version": "0.0.1",
   "description": "Customize Drawer Menu Component for React-Native ",
   "main": "lib/index.js",
-  
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/theemachine"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project ./tsconfig.json",
-    "pub": "npm version patch && npm publish --registry https://npm.pkg.github.com/",
+    "pub": "npm version patch && npm publish",
     "lint": "tslint --fix -p ./tsconfig.json"
   },
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:theemachine/rn-drawer-menu.git",
-    "directory": "@theemachine/rn-drawer-menu"
+    "directory": "rn-drawer-menu"
   },
   "keywords": [
     "react",
